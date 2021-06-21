@@ -15,6 +15,10 @@ namespace Avanade.SubTCSE.Projeto.Api.Domain.Aggregates.EmployeeRole.Entities
             RoleName = roleName;
         }
 
+        public EmployeeRole(string roleName)
+        {
+            RoleName = roleName;
+        }
         public string Id { get; private set; }
 
         public string RoleName { get; private set; }

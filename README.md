@@ -11,3 +11,7 @@ Estruturação de pastas
 
 ## dia 3
 Criação da camada de dominio
+
+## dia 4
+
+Criação da camada de aplicação 
