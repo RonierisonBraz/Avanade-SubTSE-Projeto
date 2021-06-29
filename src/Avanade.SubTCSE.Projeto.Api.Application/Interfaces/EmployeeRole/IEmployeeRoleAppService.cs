@@ -1,6 +1,4 @@
-﻿
-
-using Avanade.SubTCSE.Projeto.Api.Application.Dtos.EmployeeRole;
+﻿using Avanade.SubTCSE.Projeto.Api.Application.Dtos.EmployeeRole;
 
 namespace Avanade.SubTCSE.Projeto.Api.Application.Interfaces.EmployeeRole
 {

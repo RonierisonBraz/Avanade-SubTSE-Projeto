@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Avanade.SubTCSE.Projeto.Api.Domain.Aggregates.Employee.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace Avanade.SubTCSE.Projeto.Api.Domain.Aggregates.EmployeeRole.Entities
 {
 
-    public record EmployeeRole
+    public record EmployeeRole : BaseEntity<string>
     {
         public EmployeeRole(string id, string roleName)
         {
@@ -19,9 +20,8 @@ namespace Avanade.SubTCSE.Projeto.Api.Domain.Aggregates.EmployeeRole.Entities
         {
             RoleName = roleName;
         }
-        public string Id { get; private set; }
-
-        public string RoleName { get; private set; }
+        
+        public string RoleName { get; init; }
 
     }
 
